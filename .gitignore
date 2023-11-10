@@ -1,7 +1,10 @@
 # Auto generated files
 [Dd]ebug/
 [Rr]elease/
-build/*
+##build/*
+.bin
+.obj
+.vs
 *.slo
 *.lo
 *.o
@@ -80,14 +83,11 @@ spdlogConfigVersion.cmake
 cmake-build-*/
 *.db
 *.ipch
-*.filters
 *.db-wal
 *.opendb
 *.db-shm
-*.vcxproj
 *.tcl
 *.user
-*.sln
 
 # macos
 *.DS_store
