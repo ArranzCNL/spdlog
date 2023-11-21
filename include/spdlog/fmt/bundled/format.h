@@ -47,6 +47,9 @@
 
 #include "core.h"
 
+#pragma warning(push)
+#pragma warning(disable: 4996)
+
 #if FMT_GCC_VERSION
 #  define FMT_GCC_VISIBILITY_HIDDEN __attribute__((visibility("hidden")))
 #else
@@ -4213,5 +4216,7 @@ FMT_END_NAMESPACE
 #else
 #  define FMT_FUNC
 #endif
+
+#pragma warning(pop)
 
 #endif  // FMT_FORMAT_H_
